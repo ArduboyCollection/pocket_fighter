@@ -8,7 +8,7 @@ The license for the precompiled HEX, and the package is <a rel="license" href="h
 
 ## Introduction
 
-Pocket Fighter is a FTG, you can compete with your Arduboy. The CPU will repeat your actions at previous round.
+Pocket Fighter is an FTG, you can compete with your Arduboy. The CPU will repeat your actions at previous round.
 
 ## Installation
 
