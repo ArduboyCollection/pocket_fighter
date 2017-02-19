@@ -4,7 +4,7 @@
 
 **Copyright (C) 2017 [Wang Renxin](https://github.com/paladin-t/). All rights reserved.**
 
-The license for the precompiled HEX, and the package is <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+The license for the precompiled .HEX, and the .ARDUBOY package is <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 
 ## Introduction
 
