@@ -8,7 +8,7 @@ The license for the precompiled HEX, and the package is <a rel="license" href="h
 
 ## Introduction
 
-Pocket Fighter is an FTG, you can compete with your Arduboy. The CPU will repeat your actions at previous round.
+Pocket Fighter is an FTG, you can compete with your Arduboy. The CPU will repeat your actions at previous level.
 
 ## Installation
 
@@ -48,9 +48,9 @@ B
 ![](docs/fight2.png)
 
 1. You are always playing the **bright head**, your opponent is the dark head.
-2. Both fighters get max to 3 HP, one will die when all lost.
+2. Both fighters get up to 3 HP, one will die when all HP lost.
 3. You will enter to next level and get 1 more HP, if the opponent is defeated.
-4. The CPU will **repeat your actions at previous round**.
+4. The CPU will **repeat your actions at previous level**.
 5. Defeat your challengers, and survive as long as you can.
 
 ## Support
