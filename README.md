@@ -1,12 +1,12 @@
-![](docs/banner.png)
+![](img/banner.png)
 
 # Pocket Fighter
 
 **Copyright (C) 2017 [Wang Renxin](https://github.com/paladin-t/). All rights reserved.**
 
-The license for the precompiled .HEX, and the .ARDUBOY package is <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> for the precompiled .HEX, and the .ARDUBOY package.
 
-The license for the source code is <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> for the source code.
 
 ## Introduction
 
@@ -27,11 +27,11 @@ Pocket Fighter is an FTG, you can compete with your Arduboy. The CPU will repeat
 
 ## Control
 
-![](docs/menu1.png)
+![](img/menu1.png)
 
-![](docs/win1.png)
+![](img/win1.png)
 
-![](docs/lose1.png)
+![](img/lose1.png)
 
 D-Pad: Left/Right/Up
 
@@ -51,16 +51,12 @@ B
 
 ## Rules
 
-![](docs/fight1.png)
+![](img/fight1.png)
 
-![](docs/fight2.png)
+![](img/fight2.png)
 
 1. You are always playing the **bright head**, your opponent is the dark head.
 2. Both fighters get up to 3 HP, one will die when all HP lost.
 3. You will enter to next level and get 1 more HP, if the opponent is defeated.
 4. The CPU will **repeat your actions at previous level**.
 5. Defeat your challengers, and survive as long as you can.
-
-## Support
-
-Any [feedback](mailto:hellotony521@qq.com) are welcome.
