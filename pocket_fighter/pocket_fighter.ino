@@ -676,10 +676,10 @@ static void lose(void) {
 }
 static void next(void) {
   if (T1 < FPS) {
-    if (T1 == 0) sound(800, 233);
-    else if (T1 == FPS / 3) sound(1000, 233);
-    else if (T1 == FPS * 2 / 3) sound(1200, 333);
-    ++T1;
+    if (T1 == 0) { A.setRGBled(0, 15, 0); sound(800, 233); }
+    else if (T1 == FPS / 3) { A.setRGBled(0, 31, 0); sound(1000, 233); }
+    else if (T1 == FPS * 2 / 3) { A.setRGBled(0, 63, 0); sound(1200, 333); }
+    if (++T1 == FPS) A.setRGBled(0, 0, 0);
   } else {
     if (A.justReleased(DOWN_BUTTON | A_BUTTON | B_BUTTON)) {
       prepare();
@@ -690,10 +690,10 @@ static void next(void) {
 }
 static void over(void) {
   if (T1 < FPS) {
-    if (T1 == 0) sound(300, 233);
-    else if (T1 == FPS / 3) sound(300, 233);
-    else if (T1 == FPS * 2 / 3) sound(200, 333);
-    ++T1;
+    if (T1 == 0) { A.setRGBled(63, 0, 0); sound(300, 233); }
+    else if (T1 == FPS / 3) { A.setRGBled(31, 0, 0); sound(300, 233); }
+    else if (T1 == FPS * 2 / 3) { A.setRGBled(15, 0, 0); sound(200, 333); }
+    if (++T1 == FPS) A.setRGBled(0, 0, 0);
   } else {
     if (A.justReleased(DOWN_BUTTON | A_BUTTON | B_BUTTON)) {
       memset(R, 0, sizeof(R));
