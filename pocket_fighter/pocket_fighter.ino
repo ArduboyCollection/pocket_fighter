@@ -455,6 +455,13 @@ static void drawFighter(Fighter* f, bool isSelf, AttackAnimationFinishedEventHan
     A.drawBitmap(f->bx, f->by, SPRITE_BULLET, 2, 8, WHITE);
   }
 }
+static void drawProgress(void) {
+  A.setCursor(8, BORDER_BOTTOM + 3);
+  A.print("LEVEL ");
+  A.print(L);
+  A.print(" BEST ");
+  A.print(B);
+}
 static void drawHUD(Fighter* l, Fighter* r) {
   for (uint8_t i = 0; i < l->hp; ++i) {
     A.drawBitmap(8 + 8 * i, 0, SPRITE_HEART, 8, 8, WHITE);
@@ -463,11 +470,7 @@ static void drawHUD(Fighter* l, Fighter* r) {
     A.drawBitmap(110 - 8 * i, 0, SPRITE_HEART, 8, 8, WHITE);
   }
   A.drawLine(0, BORDER_BOTTOM + 1, 127, BORDER_BOTTOM + 1, WHITE);
-  A.setCursor(8, BORDER_BOTTOM + 3);
-  A.print("LEVEL ");
-  A.print(L);
-  A.print(" BEST ");
-  A.print(B);
+  drawProgress();
 }
 
 static void menu(void) {
@@ -705,6 +708,7 @@ static void over(void) {
     }
   }
   A.drawBitmap(32, 16, SPRITE_OVER, 64, 32, WHITE);
+  drawProgress();
 }
 
 void setup() {
